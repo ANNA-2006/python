@@ -1,10 +1,17 @@
-""""Author=Anna
-date :01/10/2024
-used for finding the sum
+"""
+author: Anna mariya
+created on : 15/10/2024
 
 """
-
-number1=int(input("enter first number:"))
-number2=int(input("Enter second number:"))
-sum=number1+number2
+num=int(input("enter a number"))
+sum=0
+while num>0:
+    r=num%10
+    num=num//10
+    sum=sum+r
 print(sum)
+
+
+
+
+
