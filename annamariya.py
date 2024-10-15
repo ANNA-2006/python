@@ -1,13 +1,13 @@
 """
-author-anna mariya shibu
-created on 8/10/2024
-program for concatenating
+author: Anna mariya
+created on : 15/10/2024
+
 """
-first_name=input("enter your first name:")
-last_name=input("enter your last name:")
-full_name=first_name+ " " +last_name
-print(full_name)
-length= len(first_name)
-print(length)
-extracted_last_name=full_name[:length]
-print(extracted_last_name)
+num1= int(input("enter the first number:"))
+num2= int(input("enter the second number:"))
+if num1>num2 :
+    print("num1 is greater")
+elif num1<num2:
+     print("num2 is greater")
+else :
+     print("num1 equal to num2")
