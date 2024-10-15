@@ -1,5 +1,7 @@
-str1="Hello,World"
-str2=str1[6:12]
-str3="  everyone"
-print(str2)
-print(str2+str3)
+num1=int(input("enter a number:"))
+if num1>0:
+    print("the given number:",num1 ,"is positive")
+
+
+else:
+        print("the given number:",num1 ,"is negative")
